@@ -29,9 +29,9 @@ mkdir -p ${PYTHON_FILE_SERVER_ROOT}
 cd ${PYTHON_FILE_SERVER_ROOT}
 
 index_path="index.html"
-image_path="images/aria-logo.png"
+image_path="images/tmx-logo.jpg"
 
 ctx logger info "Downloading blueprint resources..."
 ctx download-resource-and-render ${PYTHON_FILE_SERVER_ROOT}/index.html ${index_path}
-ctx download-resource ${PYTHON_FILE_SERVER_ROOT}/aria-logo.png ${image_path}
+ctx download-resource ${PYTHON_FILE_SERVER_ROOT}/tmx-logo.png ${image_path}
 
